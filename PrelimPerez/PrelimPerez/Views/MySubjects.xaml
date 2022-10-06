@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="PrelimPerez.Views.MySubjects"
+Title="MySubjects">
+    <!-- Layout children in two rows -->
+    <Grid RowDefinitions="Auto,*">
+
+        <!-- Layout children vertically -->
+        <StackLayout Grid.Row="1" Margin="20" Spacing="20">
+            <Label FontSize="22">
+                <Label.FormattedText>
+                    <FormattedString>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Text=" ELECTIVE 3" FontSize="25" FontAttributes="Italic" />
+            <Label Text="(F 8:00 - 11:00AM)" FontSize="15" />
+            <Label Text=" CPE LAWS AND ETHICS" FontSize="25" FontAttributes="Italic" />
+            <Label Text="(TUE 6:00 - 8:00PM)" FontSize="15" />
+            <Label Text=" EMERGING TECHNOLOGIES" FontSize="25" FontAttributes="Italic" />
+            <Label Text="(MW 2:00 - 4:00PM)" FontSize="15" />
+            <Label Text=" CPE PRACTICE AND DESIGN 2" FontSize="25" FontAttributes="Italic" />
+            <Label Text="(TTH 10:30 - 1:30PM)" FontSize="15" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

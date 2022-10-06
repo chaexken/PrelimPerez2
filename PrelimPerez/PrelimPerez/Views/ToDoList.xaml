@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="PrelimPerez.Views.ToDoList"
+Title="ToDoList">
+    <!-- Layout children in two rows -->
+    <Grid RowDefinitions="Auto,*">
+
+        <!-- Layout children vertically -->
+        <StackLayout Grid.Row="1" Margin="20" Spacing="20">
+            <Label FontSize="22">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Text=" PRELIM EXAM ELECTIVE 3"  FontSize="25" FontAttributes="Italic" />
+            <Label Text=" (F 8:00 - 11:00AM) "  FontSize="20" />
+            <Label Text=" CHAPTER 3 AND GUIs"  FontSize="25" FontAttributes="Italic" />
+            <Label Text=" (TTH 10:30 - 1:30PM)"  FontSize="20" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

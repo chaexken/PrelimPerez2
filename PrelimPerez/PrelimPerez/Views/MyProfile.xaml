@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="PrelimPerez.Views.MyProfile"
+Title="MyProfile">
+    <!-- Layout children in two rows -->
+    <Grid RowDefinitions="Auto,*">
+        <Image Source="Genshin_Impact_logo.png"
+
+            VerticalOptions="Center" HeightRequest="150" />
+        <!-- Layout children vertically -->
+        <StackLayout Grid.Row="1" Margin="20" Spacing="20">
+            <Label FontSize="22">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Text=" Name:"  FontSize="20" />
+            <Label Text=" Kenneth Danielle Perez " FontAttributes="Italic" FontSize="25" />
+            <Label Text="Student Number:"  FontSize= "20" />
+            <Label Text=" 19-0442-443 " FontAttributes="Italic" FontSize="25" />
+            <Label Text="Course:"  FontSize= "20" />
+            <Label Text=" BSCPE " FontAttributes="Italic" FontSize="25" />
+            <Button Text="MY FB ACCOUNT" Clicked ="OnButtonClicked" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
